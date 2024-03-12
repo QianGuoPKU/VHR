@@ -41,10 +41,7 @@ VHRanger is designed to prediction the cross-species host range for any given an
 ### Input
   
 ### Command
-  
-    python DeepHoF.py <input_file_folder>/input_file.fna <output_file_folder>/output_file.tsv
     
-  
 ### Output
 
 
