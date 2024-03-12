@@ -1,3 +1,5 @@
 Models filter=lfs diff=lfs merge=lfs -text
 PF/* filter=lfs diff=lfs merge=lfs -text
 PF filter=lfs diff=lfs merge=lfs -text
+LM_P filter=lfs diff=lfs merge=lfs -text
+LM_P/* filter=lfs diff=lfs merge=lfs -text
