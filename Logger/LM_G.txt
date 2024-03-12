@@ -1,0 +1,10 @@
+[2023-04-28 13:58:17,383][run_finetune_vbird.py][line:780][INFO] Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+Use FP16 precision: True
+
+[2023-04-28 13:58:18,522][builder.py][line:381][WARNING] Using custom data configuration default-119d2d1bbedd8c14
+[2023-04-28 13:58:18,551][builder.py][line:539][WARNING] Reusing dataset csv (/data1/jyguo/.cache/huggingface/datasets/csv/default-119d2d1bbedd8c14/0.0.0/bf68a4c4aefa545d0712b2fcbb1b327f905bbe2f6425fbc5e8c25234acb9e14a)
+[2023-04-28 13:58:18,854][fingerprint.py][line:283][WARNING] Parameter 'function'=<function main.<locals>.preprocess_function at 0x7fa5501fa170> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.

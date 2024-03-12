@@ -1,0 +1,13 @@
+[2023-03-31 20:41:39,479][run_finetune_vbird.py][line:780][INFO] Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+Use FP16 precision: True
+
+[2023-03-31 20:42:59,611][builder.py][line:381][WARNING] Using custom data configuration default-2d19bd1a60844c82
+[2023-03-31 20:43:00,296][fingerprint.py][line:283][WARNING] Parameter 'function'=<function main.<locals>.preprocess_function at 0x7efd7ae68ef0> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+[2023-03-31 20:45:49,615][run_finetune_vbird.py][line:1355][INFO] Predict no label sequence using the saved model
+[2023-03-31 20:45:49,616][run_finetune_vbird.py][line:670][INFO] ***** Running predict {} *****
+[2023-03-31 20:45:49,616][run_finetune_vbird.py][line:671][INFO]   Num examples = 986
+[2023-03-31 20:45:49,616][run_finetune_vbird.py][line:672][INFO]   Batch size = 64
